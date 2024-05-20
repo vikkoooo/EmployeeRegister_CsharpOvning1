@@ -14,7 +14,7 @@
 			employees.Add(e);
 		}
 
-		public void PrintEmployeeRegister(List<Employee> employees)
+		public void PrintEmployeeRegister()
 		{
 			foreach (Employee e in employees)
 			{
