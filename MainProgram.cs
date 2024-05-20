@@ -1,5 +1,6 @@
 ﻿namespace EmployeeRegister
 {
+	//Test
 	class MainProgram
 	{
 		static void Main(string[] args)
