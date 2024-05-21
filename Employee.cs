@@ -2,19 +2,19 @@
 {
 	class Employee
 	{
-		public string name { get; set; }
-		public int salary { get; set; }
+		public string Name { get; set; }
+		public int Salary { get; set; }
 
 		public Employee()
 		{
-			name = "";
-			salary = 0;
+			Name = "";
+			Salary = 0;
 		}
 
 		public Employee(string name, int salary)
 		{
-			this.name = name;
-			this.salary = salary;
+			Name = name;
+			Salary = salary;
 		}
 	}
 }
