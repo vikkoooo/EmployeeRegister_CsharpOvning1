@@ -2,7 +2,7 @@
 {
 	class EmployeeRegister
 	{
-		public List<Employee> employees;
+		private List<Employee> employees;
 
 		public EmployeeRegister()
 		{
@@ -18,7 +18,7 @@
 		{
 			foreach (Employee e in employees)
 			{
-				Console.WriteLine($"Name: {e.name}, Salary: {e.salary}");
+				Console.WriteLine($"Name: {e.Name}, Salary: {e.Salary}");
 			}
 		}
 	}
